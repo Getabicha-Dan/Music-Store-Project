@@ -1,0 +1,91 @@
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 1px;
+color: rgb(130, 130, 248);
+}
+#allContainer{
+    width: 90%;
+    max-width: 950px;
+    margin: 20px auto;
+    border: solid 1px cornflowerblue;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px;
+    background-color: rgb(241, 238, 246);
+}
+#banner{
+    background: rgb(245, 245, 248) ;
+    padding: 20px 0;
+    
+
+}
+#banner h1, #banner h2{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+#singerName{
+    width:90% ;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 3px solid rgb(203, 45, 214);
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgb(18, 5, 5);
+          
+    }
+#songName{
+    width: 90%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    border: 3px solid rgb(203, 45, 214);
+    font-size: 16px;
+    color: rgb(128, 27, 223);
+    border-radius: 4px;
+}
+#Playlist, #Adder{
+   margin: 30px;
+}
+
+#Playlist ul{
+ list-style-type: none;
+ padding: 0;
+}
+#Playlist li{
+    padding: 20px;
+    border-left: 5px solid rgb(24, 9, 69);
+    margin: 20px 10px;
+}
+#Playlist li:hover{
+    border-color:aqua;
+}
+.remove{
+ float: right;
+ background-color:rgb(64, 10, 115);
+ padding: 6px;
+ border-radius: 4px;
+ cursor: pointer;
+ color: rgb(182, 169, 179);
+}
+
+#Adder{
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 3px solid rgb(19, 2, 90);
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    
+ }
+ 
+
+ 
